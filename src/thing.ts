@@ -1,4 +1,4 @@
-//not working , condition is undefined
+//not working , the exported vairiable 'thing' is undefined;
 const condition = await new Promise( res => {
 	setTimeout( () => res( '1234' ) , 500 );
 } );
